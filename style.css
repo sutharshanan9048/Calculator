@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+font-weight: bolder;
+margin-top: 50px;
+font-size: 50px;
+}
+#container{
+    width: 40vw;
+    height: 70vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    display:grid;
+    gap: 7px;
+    padding: 15px;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255,0.8);
+}
+.subContainer{
+    display: flex;
+    justify-content: space-between; 
+    gap: 7px;
+}
+.subContainer input{
+    display: block;
+    text-align: end;
+    font-weight: bolder;
+    font-size: 40px;
+    width: 100%;
+    border-radius: 10px;
+    padding-right: 10px;
+}
+.subContainer button{
+    width: 25%;
+    border-radius: 10px;
+    background-color:rgba(52, 211, 235, 0.5);
+    font-size: 20px;
+}
+.subContainer button:hover{
+    background-color: rgb(49, 28, 230);
+}
+.subContainer .btn{
+    width: 25%;
+    border-radius: 10px;
+    background-color:rgb(49, 28, 230);
+    font-size: 40px;
+    
+}
+.subContainer .btn:hover{
+background-color:rgba(52, 211, 235, 0.5);
+}
