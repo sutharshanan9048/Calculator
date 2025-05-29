@@ -52,3 +52,47 @@ font-size: 50px;
 .subContainer .btn:hover{
 background-color:rgba(52, 211, 235, 0.5);
 }
+/* Responsive Calculator Media Queries */
+
+/* For tablets and small desktops */
+@media (max-width: 900px) {
+  #container {
+    width: 80vw;
+    min-width: 300px;
+    max-width: 400px;
+  }
+  .subContainer button {
+    width: 60px;
+    height: 60px;
+    font-size: 1.2rem;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 600px) {
+  #container {
+    width: 98vw;
+    min-width: 200px;
+    max-width: 350px;
+    padding: 10px;
+  }
+  .subContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  .subContainer button {
+    width: 45px;
+    height: 45px;
+    font-size: 1rem;
+    padding: 0;
+  }
+  input[type="text"] {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 8px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+}
